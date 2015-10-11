@@ -1,0 +1,35 @@
+table, th, td {
+   border: 1px solid black;
+   padding: 10px;
+}
+
+tr.data:nth-of-type(odd) td {
+  background-color: lightsteelblue;
+}
+
+tr.data:nth-of-type(even) td {
+  background-color: lightslategrey;
+}
+
+th.column-header {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.outer-content {
+  width: 75%;
+  background-color: pink;
+  height: 75px;
+  position: relative;
+}
+
+.inner-content {
+  position: absolute;
+  left: 12.5%;
+  width: 75%;
+  height: 50%;
+  text-align: center;
+  background-color: lightblue;
+}
+
+
